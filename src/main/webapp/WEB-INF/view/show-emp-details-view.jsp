@@ -10,7 +10,9 @@
 
 <h3>Dear Employee, you're welcome!</h3>
 <br>
-Your name is ${param.empName}
+<!--Your name is ${param.empName}-->  <!--without Model-->
+Your name is ${nameAttrbt} ${dscrptn} <!--with Model-->
+
 
 </body>
 
